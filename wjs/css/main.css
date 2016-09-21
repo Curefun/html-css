@@ -63,6 +63,7 @@ fieldset[disabled] .btn-itcast.active {
 .navbar-itcast {
     background-color: #fff;
     border-color: #f5f5f5;
+    margin-bottom: 0px;
 }
 
 .navbar-itcast .navbar-brand {
@@ -204,7 +205,7 @@ fieldset[disabled] .navbar-itcast .btn-link:focus {
 }
 /** 头部区域 **/
 #header{
-    height: 200px;
+
 }
 #header > .topbar{
 	height: 40px;
@@ -253,14 +254,26 @@ fieldset[disabled] .navbar-itcast .btn-link:focus {
     vertical-align: middle;
 }
 
+/**轮播图**/
+#main_ad {}
+
+#main_ad > .carousel-inner > .item {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    #main_ad > .carousel-inner > .item {
+        height: 410px;
+    }
+}
+
+#main_ad > .carousel-inner > .item > img {
+    width: 100%;
+}
+
 /**测试**/
-section{
-    height: 200px;
-    background-color: #fff;
-}
-section:nth-of-type(2n+1){
-    background-color: #f5f5f5;
-}
+
 /*** 脚注区域**/
 
 
