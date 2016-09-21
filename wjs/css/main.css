@@ -12,7 +12,7 @@ body {
     url('../font/MiFie-Web-Font.woff') format('woff');
 }
 /**
- * Bootstrap扩展
+ * BootstrapÃ¦â€°Â©Ã¥Â±â€¢
  */
 
 .btn-itcast {
@@ -184,7 +184,7 @@ fieldset[disabled] .navbar-itcast .btn-link:focus {
 }
 
 
-/*** class*包含 **/
+/*** class*Ã¥Å’â€¦Ã¥ÂÂ« **/
 [class^='icon-'],[class*=" icon-"]{
     font-family: itcast;
     font-style: normal;
@@ -203,7 +203,7 @@ fieldset[disabled] .navbar-itcast .btn-link:focus {
 .icon-icon::before{
     content: "\e920";
 }
-/** 头部区域 **/
+/** Ã¥Â¤Â´Ã©Æ’Â¨Ã¥Å’ÂºÃ¥Å¸Å¸ **/
 #header{
 
 }
@@ -254,7 +254,7 @@ fieldset[disabled] .navbar-itcast .btn-link:focus {
     vertical-align: middle;
 }
 
-/**轮播图**/
+/**Ã¨Â½Â®Ã¦â€™Â­Ã¥â€ºÂ¾**/
 #main_ad {}
 
 #main_ad > .carousel-inner > .item {
@@ -262,6 +262,7 @@ fieldset[disabled] .navbar-itcast .btn-link:focus {
     background-position: center center;
     background-size: cover;
 }
+
 @media (min-width: 768px) {
     #main_ad > .carousel-inner > .item {
         height: 410px;
@@ -271,10 +272,55 @@ fieldset[disabled] .navbar-itcast .btn-link:focus {
 #main_ad > .carousel-inner > .item > img {
     width: 100%;
 }
+/**Ã§â€°Â¹Ã¨â€°Â²Ã¥Å’ÂºÃ¥Å¸Å¸**/
+#tese{
+    padding: 30px 0;
+    border-bottom: 1px solid #c0c0c0;
+}
+#tese a{
+    text-decoration: none;
+}
+#tese i{
+    font-size: 34px;
+}
+.icon-uniE907::before {
+    content: "\e907";
+}
+#tese > .container > .row > div {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
 
-/**测试**/
+#ljyy{
+    border-bottom: 1px solid #c0c0c0;
+}
 
-/*** 脚注区域**/
+.icon-uniE906::before{
+    content: "\e906";
+}
+#ljyy > .container{
+    margin-top: 8px;
+}
+#ljyy > .container > p > i{
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+#ljyy > .container > p > span{
+    color: #E92322;
+    font-size: 14px;
+}
+.icon-uniE905::before{
+    content: "\e905";
+}
+
+
+
+
+
+
+
+
 
 
 
