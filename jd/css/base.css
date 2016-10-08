@@ -1,0 +1,49 @@
+/** 公共样式 **/
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+
+    -webkit-tap-highlight-color: transparent;/*清除高亮*/
+
+    /*以border开始计算宽度*/
+    -webkit-box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: "Microsoft YaHei,sans-serif";
+    color: #000;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul{
+    list-style: none;
+}
+
+input,textarea{
+    border: none;
+    outline: none;
+    resize: none;
+
+    /** 输入框默认样式**/
+    -webkit-appearance: none;
+}
+
+/*清除浮动*/
+.clearfix::before,
+.clearfix::after{
+    content: ' ';
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+    clear: both;
+}
+[class^="icon_"]{
+    background: url("../images/sprites.png") no-repeat;
+    background-size: 200px 200px;
+}
